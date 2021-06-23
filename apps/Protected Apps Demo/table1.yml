@@ -18,7 +18,8 @@ template:
         ordered: []
     - alwaysShowPaginator: false
     - columnColors:
-        ordered: []
+        ordered:
+          - name: blue
     - columnFrozenAlignments:
         ordered: []
     - allowMultiRowSelect: false
