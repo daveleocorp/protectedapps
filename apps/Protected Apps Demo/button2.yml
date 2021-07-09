@@ -1,0 +1,32 @@
+id: button2
+type: widget
+subtype: ButtonWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - exportTemplate: null
+    - url: ''
+    - newWindow: false
+    - value: Deactivate User
+    - style:
+        ordered:
+          - accent-background: '#c74438ff'
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - exportFileName: ''
+    - loading: ''
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 10
+    col: 9
+    height: 1
+    width: 2
+createdAt: 2021-07-09T20:37:58.112Z
