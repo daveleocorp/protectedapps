@@ -72,6 +72,7 @@ template:
     - requireConfirmation: false
     - queryFailureConditions: ''
     - enableCaching: false
+    - allowedGroups: []
     - databaseUsernameOverride: ''
     - shouldEnableBatchQuerying: false
     - doNotThrowOnNoOp: false
