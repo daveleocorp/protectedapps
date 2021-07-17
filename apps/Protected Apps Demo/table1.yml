@@ -15,7 +15,8 @@ template:
         ordered: []
     - onRowAdded: ''
     - columnHeaderNames:
-        ordered: []
+        ordered:
+          - sales: Numbers
     - alwaysShowPaginator: false
     - columnColors:
         ordered:
