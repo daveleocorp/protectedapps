@@ -1,0 +1,23 @@
+id: text2
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
+    - disableMarkdown: false
+    - overflowType: scroll
+style:
+  ordered: []
+position2:
+  position2:
+    row: 10
+    col: 6
+    height: 1
+    width: 3
+createdAt: 2021-07-29T22:00:25.571Z
