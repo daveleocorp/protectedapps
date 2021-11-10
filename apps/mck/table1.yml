@@ -1,0 +1,158 @@
+id: table1
+type: widget
+subtype: TableWidget
+resourceName: null
+template:
+  ordered:
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - normalizedData: null
+    - saveChangesDisabled: ''
+    - columnWidths:
+        - object:
+            id: email
+            value: 234.578125
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - permission_1: ''
+          - permission_2: ''
+          - permission_3: ''
+          - permission_4: ''
+          - permission_5: ''
+          - created_at: ''
+          - quantity: ''
+          - image_url: ''
+          - name: ''
+          - part_number: ''
+          - updated_at: ''
+          - unit_price_cents: ''
+          - id: ''
+          - email: ''
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - showAddRowButton: false
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - permission_1: true
+          - permission_2: true
+          - permission_3: true
+          - permission_4: true
+          - permission_5: true
+          - created_at: true
+          - quantity: true
+          - image_url: true
+          - name: true
+          - part_number: true
+          - updated_at: true
+          - unit_price_cents: true
+          - id: true
+          - email: true
+    - selectedPageIndex: '0'
+    - actionButtonColumnName: Actions
+    - filterStackType: and
+    - downloadRawData: false
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ getPermissionsForUser.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - sortedDesc: false
+    - customButtonName: ''
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - showRefreshButton: true
+    - pageSize: 6
+    - useDynamicColumnSettings: false
+    - actionButtonPosition: left
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: ''
+    - defaultSortDescending: false
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - overflowType: pagination
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - id
+        - name
+        - quantity
+        - unit_price_cents
+        - created_at
+        - updated_at
+        - image_url
+        - part_number
+        - email
+        - permission_1
+        - permission_2
+        - permission_3
+        - permission_4
+        - permission_5
+    - freezeActionButtonColumns: false
+    - sort: null
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 0.6
+    height: 8.799999999999999
+    width: 12
+createdAt: 2021-10-21T20:18:15.455Z

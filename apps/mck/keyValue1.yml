@@ -1,0 +1,42 @@
+id: keyValue1
+type: widget
+subtype: KeyValueMapWidget
+resourceName: null
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered: []
+    - valueTitle: Value
+    - data: |-
+        {
+          "a": 1,
+          "b": 2,
+          "c": 3
+        }
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 1.4
+    col: 2
+    height: 6.8
+    width: 8
+    tabNum: 4
+createdAt: 2021-10-22T00:16:08.184Z
