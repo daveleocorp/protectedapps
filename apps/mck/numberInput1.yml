@@ -1,0 +1,51 @@
+id: numberInput1
+type: widget
+subtype: NumberInputWidget
+resourceName: null
+template:
+  ordered:
+    - readOnly: false
+    - iconAfter: ''
+    - max: null
+    - hidden: false
+    - customValidation: ''
+    - showSeparators: true
+    - hideValidationMessage: false
+    - textBefore: ''
+    - validationMessage: ''
+    - textAfter: ''
+    - allowNull: false
+    - showClear: false
+    - tooltipText: ''
+    - currency: USD
+    - labelAlign: left
+    - value: 0
+    - min: null
+    - labelWidth: '33'
+    - placeholder: Enter value
+    - showStepper: true
+    - label: Label
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - format: currency
+    - iconBefore: ''
+    - textAlign: left
+    - inputTooltip: ''
+    - disabled: false
+    - labelPosition: left
+    - decimalPlaces: null
+    - labelWrap: false
+    - padDecimal: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 1
+    col: 2
+    height: 1
+    width: 4
+    tabNum: 3
+createdAt: 2021-10-21T23:59:47.468Z

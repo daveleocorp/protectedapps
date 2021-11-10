@@ -1,0 +1,46 @@
+id: cascader1
+type: widget
+subtype: CascaderWidget
+resourceName: null
+template:
+  ordered:
+    - displayValue: ''
+    - tooltipText: ''
+    - value: ''
+    - placeholder: ''
+    - structure: |-
+        [
+          [
+            "pants",
+            "denim",
+            "jeans"
+          ],
+          [
+            "shoes",
+            "athletic",
+            "running"
+          ],
+          [
+            "shoes",
+            "athletic",
+            "soccer"
+          ]
+        ]
+    - label: Categories
+    - labelMaxWidth: ''
+    - labelPlacedOnLeft: false
+    - onSelect: ''
+    - disabled: ''
+    - hideClearButton: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 1
+    col: 6
+    height: 1
+    width: 4
+    tabNum: 3
+createdAt: 2021-10-21T23:59:53.159Z

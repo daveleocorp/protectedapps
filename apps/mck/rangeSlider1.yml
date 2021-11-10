@@ -1,0 +1,39 @@
+id: rangeSlider1
+type: widget
+subtype: RangeSliderWidget
+resourceName: null
+template:
+  ordered:
+    - hideOutput: false
+    - max: 10
+    - hidden: false
+    - customValidation: ''
+    - hideValidationMessage: false
+    - step: 1
+    - validationMessage: ''
+    - tooltipText: ''
+    - labelAlign: left
+    - value:
+        object:
+          start: 2
+          end: 8
+    - min: 0
+    - labelWidth: '33'
+    - label: Label
+    - _validate: false
+    - labelWidthUnit: '%'
+    - invalid: false
+    - disabled: false
+    - labelPosition: left
+    - labelWrap: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 2.4
+    col: 2
+    height: 0.6
+    width: 8
+    tabNum: 3
+createdAt: 2021-10-22T00:00:07.819Z

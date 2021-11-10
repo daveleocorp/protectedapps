@@ -1,0 +1,25 @@
+id: buttonGroup1
+type: widget
+subtype: ButtonGroupWidget
+resourceName: null
+template:
+  ordered:
+    - values: '{{calculatePermissions.value.map(a=>a.tab)}}'
+    - onChange: ''
+    - tooltipText: ''
+    - value: '0'
+    - renderAsHtml: false
+    - label: ''
+    - labelMaxWidth: ''
+    - labelPlacedOnLeft: false
+    - disabled: ''
+    - labels: '{{calculatePermissions.value.map(a=>a.label)}}'
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1
+    col: 1
+    height: 1
+    width: 10
+createdAt: 2021-10-21T22:30:06.853Z

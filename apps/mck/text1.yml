@@ -1,0 +1,23 @@
+id: text1
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '### Permissions'
+    - disableMarkdown: false
+    - overflowType: scroll
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    height: 0.6
+    width: 12
+createdAt: 2021-10-21T22:40:58.958Z

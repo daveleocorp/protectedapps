@@ -1,0 +1,81 @@
+id: calculatePermissions
+type: function
+subtype: Function
+resourceName: null
+template:
+  ordered:
+    - funcBody: >-
+        //We'll always want the user to land on the 'Home' tab so i'm creating
+        that and setting that as the first element in the array
+
+        var firstElement = {
+          tab: 0,
+          label: "Home"
+        }
+
+        //We're creating an array that will contain a 'tab' index which will
+        select the correct tab of the container
+
+        //It will also contain a 'label' which will be used for the button group
+        to control the tabs
+
+        var available_tabs = [firstElement]
+
+
+        var returned_permissions = {{getPermissionsForUser.data}}
+
+
+        //Here we have an if statement for each permission column in our
+        database.
+
+        //And for each permission that is set to 'true' we're adding a tab that
+        will be available to the user
+
+        if(returned_permissions.permission_1['0'] == true)
+
+        {
+          available_tabs.push({
+            tab: 1,
+            label: "Tab One"
+          })
+        }
+
+        if (returned_permissions.permission_2['0'] == true)
+
+        {
+          available_tabs.push({
+            tab: 2,
+            label: "Tab Two"
+          })
+        }
+
+        if (returned_permissions.permission_3['0'] == true)
+
+        {
+          available_tabs.push({
+            tab: 3,
+            label: "Tab Three"
+          })
+        }
+
+        if (returned_permissions.permission_4['0'] == true)
+
+        {
+          available_tabs.push({
+            tab: 4,
+            label: "Tab Four"
+          })
+        }
+
+        if (returned_permissions.permission_5['0'] == true)
+
+        {
+          available_tabs.push({
+            tab: 5,
+            label: "Tab Five"
+          })
+        }
+
+        return available_tabs
+    - value: ''
+createdAt: 2021-10-21T22:10:41.888Z
