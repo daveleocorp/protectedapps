@@ -7,6 +7,9 @@ template:
     - heightType: fixed
     - spinWhenChildrenAreFetching: true
     - unmountInactiveTabs: false
+    - style:
+        ordered:
+          - primary-surface: '#d06258ff'
     - tabNames: '["Home","Tab One", "Tab Two", "Tab Three", "Tab Four", "Tab Five"]'
     - selectedTabIndex: 0
     - selectedTab: '{{buttonGroup1.value}}'
